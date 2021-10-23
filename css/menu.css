@@ -11,7 +11,6 @@
     transition:.3s
 }
 
-
 .menu_btn {
     background-color:#5865f2;
     border-radius:13px 13px;
@@ -25,8 +24,8 @@
 }
 
 .menu_btn:hover {
-    color:#fff;
     background-color:#4752c4;
+    color:#fff;
     text-shadow:0 0 2px #000
 }
 

@@ -5,7 +5,7 @@ body {
 }
 
 a {
-    text-decoration:none;
+    text-decoration:none
 }
 
 .header {
@@ -38,9 +38,9 @@ a {
 }
 
 .header_btn:hover {
-    color: #fff;
     background-color:#03033B99;
     border-radius:7px 7px;
+    color:#fff;
     cursor:pointer;
     text-shadow:0 0 5px #FAFAFA
 }
@@ -54,6 +54,6 @@ a {
 @media screen and (max-width:1024px) {
     .header_btn {
         display:inline-block;
-        margin:6px;
+        margin:6px
     }
 }
