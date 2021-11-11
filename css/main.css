@@ -1,24 +1,16 @@
-body {
-    background:fixed center;
-    background-size:cover;
-    font-family:"Open Sans",sans-serif
-}
+body {background:fixed center;background-size:cover;font-family:"Open Sans",sans-serif}
 
-a {
-    text-decoration:none
-}
+a {text-decoration:none}
 
 .header {
     color:#fff;
     font-size:21px;
     padding:30px;
     text-align:center;
-    text-shadow:0 0 20px #000
+    text-shadow:0 0 7px #000
 }
 
-.header h1 {
-    padding-bottom:19px
-}
+.header h1 {padding-bottom:7px}
 
 .header_desc {
     color:#fff;
@@ -52,8 +44,5 @@ a {
 }
 
 @media screen and (max-width:1024px) {
-    .header_btn {
-        display:inline-block;
-        margin:6px
-    }
+    .header_btn {display:inline-block;margin:6px}
 }
