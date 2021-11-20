@@ -13,7 +13,7 @@
   <link rel="stylesheet" href="css/footer.css" type="text/css">
   <link rel="stylesheet" href="css/menu.css" type="text/css">
 
-  <style>body {background-image:url(images/index_bg-min.png)}</style>
+  <style>body {background-image:url(images/bg-min.jpg)}</style>
 </head>
 
 <body>
@@ -25,35 +25,33 @@
   </div>
 
   <!--- 1 --->
-  <div class="header">
-    <h1>Wersja testowa — już prawie!</h1>
+  <div class="content">
+    <h1>Wersja testowa — dostępna!</h1>
 
-    <div class="mb-3 fw-bold">
-      Dnia 20.11.2021, o godzinie 20:00 zostanie uruchomiona wersja testowa bota Skiffy o nazwie Noel!
+    <div class="mb-3 fw-bold" style="color:#3ba55d;text-shadow:0 0 16px #ffff99">
+      Bot wystartował i można z niego już jak najbardziej korzystać ✔
     </div>
 
-    <div class="header_desc">
+    <div class="content_desc">
       Dzięki tej instancji będziemy mogli eliminować błędy w oficjalnym bocie (Skiffy) znacznie szybciej dzięki naszej społeczności.<br>
       Chcemy mieć pewność, że po premierze wszystko będzie działać tak, jak powinno.<br>
       Jeśli zauważysz jakiś błąd, zgłoś go nam na naszym serwerze wsparcia. Wszystkie zgłaszane przez was błędy będą natychmiast naprawiane.<br>
-      Czy bota Noel™ będzie można normalnie używać na swoich serwerach? Jak najbardziej tak.<br>
-      <div class="mt-3 fw-bold">MOŻNA DODAĆ JUŻ TESTOWEGO BOTA NA SWÓJ SERWER,<br>LECZ TEN ZOSTANIE URUCHOMIONY DOPIERO DNIA 20.11.2021, O GODZIENIE 20:00!</div>
-
-      <div class="mt-3 fw-bold">
-        Ostatnia aktualizacja strony: 19.11.2021<br>
-        Aktualna wersja: v1.7.0-alpha.0
-      </div>
+      Czy bota testowego o nazwie Noel™ można normalnie używać na swoich serwerach? Jak najbardziej tak.<br>
+      W chwili obecnej Noel™ ma dosyć małą liczbą komend. Z każdym dniem będziemy starać się wprowadzić coś nowego.<br>
+      <br>
+      <b>Polecenie pomocy:</b> n!pomoc<br>
+      <b>Prefiks bota jest możliwy do zmiany w panelu.</b>
     </div>
 
-    <a href="https://noel.skiffybot.xyz" target="_blank" class="header_btn">🌍 Strona Noel™</a>
-    <a href="https://discord.com/api/oauth2/authorize?client_id=904409457595916316&permissions=8&scope=bot" target="_blank" class="header_btn">🤖 Dodaj testowego bota</a>
+    <a href="https://noel.skiffybot.xyz" target="_blank" class="content_btn">🌍 Strona Noel™</a>
+    <a href="https://discord.com/api/oauth2/authorize?client_id=904409457595916316&permissions=8&scope=bot" target="_blank" class="content_btn">🤖 Dodaj testowego bota</a>
   </div>
 
   <!--- 2 --->
-  <div class="header">
+  <div class="content">
    <h1>Już niedługo! Bot Skiffy na Discorda</h1>
 
-    <div class="header_desc">
+    <div class="content_desc">
       Witaj! Bot wciąż jest w fazie tworzenia, więc na tę chwilę nie można go dodać na żaden serwer Discord.<br>
       Uwaga - prace nad botem już się rozpoczęły!
       Myślimy, że bot zostanie uruchomiony pod koniec tego roku.<br>
@@ -62,17 +60,17 @@
       Życzę miłego dnia. Twórca projektu Sefinek#5905.<br>
     </div>
 
-   <a href="server" target="_blank" class="header_btn">☎️ Serwer wsparcia</a>
-   <a href="https://trello.com/b/v4r9fmHL" target="_blank" class="header_btn">🔖 Tablica Trello</a>
-   <a href="add" title="Dodaj bota Skiffy na swój serwer Discord już teraz!" class="header_btn">🤖 <s>Dodaj bota</s></a>
+   <a href="server" target="_blank" class="content_btn">☎️ Serwer wsparcia</a>
+   <a href="https://trello.com/b/v4r9fmHL" target="_blank" class="content_btn">🔖 Tablica Trello</a>
+   <a href="add" title="Dodaj bota Skiffy na swój serwer Discord już teraz!" class="content_btn">🤖 <s>Dodaj bota</s></a>
   </div>
 
 
   <!--- 3 --->
-  <div class="header">
+  <div class="content">
     <h1>Co bot będzie umieć?</h1>
 
-    <div class="header_desc">
+    <div class="content_desc">
       ✔️ Kilka wersji modułu weryfikacji użytkowników, pozwalających zabezpieczyć serwer przed rajdem<br>
       ✔️ System zakładania partnerstw z serwerami społeczności<br>
       ✔️ Wiele komend przeznaczonych dla administracji bądź moderacji serwera<br>
@@ -84,8 +82,15 @@
       ✔️ Polecenia związane z anime<br>
       ✔️ Specjalne polecenia do sprawdzania formularzy rekrutacyjnych czy też partnerskich<br>
       <b>...i wiele więcej!</b>
+
+      <div class="mt-4 fw-bold">
+        Obecna wersja strony: <%= version %><br>
+        Ostatnia aktualizacja informacji: <%= lastUpdate %>
+      </div>
     </div>
+
   </div>
+
 
   <!--- 4 --->
   <div id="footer">

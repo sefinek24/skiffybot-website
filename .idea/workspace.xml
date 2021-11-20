@@ -1,14 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ade4a346-62f4-4f39-8950-2558a4b5195f" name="Changes" comment="">
+    <list default="true" id="ade4a346-62f4-4f39-8950-2558a4b5195f" name="Changes" comment="v1.7.0-alpha.0">
+      <change afterPath="$PROJECT_DIR$/versions.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/add.html" beforeDir="false" afterPath="$PROJECT_DIR$/add.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/footer.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/footer.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/main.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server.html" beforeDir="false" afterPath="$PROJECT_DIR$/server.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/version.txt" beforeDir="false" afterPath="$PROJECT_DIR$/version.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/add.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/bootstrap/bootstrap.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/bootstrap/bootstrap.min.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/footer.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/main.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/menu.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/addbot_bg.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/bot_avatar-min.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/index_bg-min.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/loading.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/menu_icon-min.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/profile.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/server_icon-min.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/version.txt" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -26,11 +37,38 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="js.linters.configure.manually.selectedeslint" value="true" />
     <property name="last_opened_file_path" value="$USER_HOME$/Documents/polish_intellij_dictionary-master/pl_PL.dic" />
-    <property name="settings.editor.selected.configurable" value="reference.settings.ide.settings.spelling" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.standard" value="true" />
+    <property name="node.js.selected.package.eslint" value="C:\Users\mateu\Desktop\skiffybot-website-old\node_modules\eslint" />
+    <property name="node.js.selected.package.standard" value="" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="settings.javascript.linters.eslint" />
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="1" Folder0="C:\Users\mateu\Documents\polish_intellij_dictionary-master" CustomDictionaries="1" CustomDictionary0="C:\Users\mateu\Documents\polish_intellij_dictionary-master\pl_PL.dic" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="1. Zaktualizowano nick twórcy.&#10;2. Dodano informacje o wersji testowej (Noel).&#10;3. Lekkie zmiany w stylach itd." />
+    <MESSAGE value="v1.7.0-alpha.0" />
+    <option name="LAST_COMMIT_MESSAGE" value="v1.7.0-alpha.0" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>
