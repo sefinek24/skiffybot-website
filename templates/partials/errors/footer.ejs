@@ -1,0 +1,24 @@
+<img src="https://http.cat/<%- code %>" alt=""><br>
+
+<a href="/" title="Strona główna - Skiffy™ | Najlepszy bot na Discord">Strona główna</a><a href="/server" title="Zaproszenie na serwer Discord: Wsparcie bota Skiffy™">Serwer Discord</a>
+<br>
+
+<code><b>Identyfikator zdarzenia:</b> <%= id %></code><br>
+
+<% switch (code) {
+
+case 500: { %>
+    <br>
+
+    <!--
+        -> Muzyka w tle:
+        Tytuł: Depths of Love
+        Wykonawca: Valentin Wiest
+        Link: https://www.youtube.com/watch?v=0asz5ICm_-U
+    -->
+    <iframe src="https://www.youtube.com/embed/0asz5ICm_-U?autoplay=1&cc_load_policy=1&controls=0&loop=1" style="display:none" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<% } break;
+
+} %>
+</body>
+</html>

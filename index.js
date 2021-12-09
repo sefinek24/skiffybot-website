@@ -15,22 +15,22 @@ app.set('view engine', 'ejs');
 
 /* Functions */
 const render = (file, req, res, data = {}) => {
-	res.render(path.resolve(file), data);
+	res.render(path.resolve(`./templates/${file}.ejs`), data);
 	console.log(`GET ${req.path}`);
 };
 
 
 /* URLs */
 app.get('/', (req, res) => {
-	render('./ejs/index.ejs', req, res, { version, lastUpdate });
+	render('index', req, res, { version, lastUpdate });
 });
 
 app.get('/server', (req, res) => {
-	render('./ejs/server.ejs', req, res);
+	render('server', req, res);
 });
 
 app.get('/add', (req, res) => {
-	render('./ejs/add.ejs', req, res);
+	render('add', req, res);
 });
 
 app.get('/version', (req, res) => {
@@ -47,13 +47,21 @@ app.get('/serverUrl', (req, res) => {
 
 
 /* Errors */
+const renderError = (res, req, code, type, err, data = {}) => {
+	if (err) console.error(err);
+
+	const id = Math.floor(Math.random() * 999999 + 1);
+	res.status(code).render(path.resolve(`./templates/errors/${code}.ejs`), Object.assign({ code, id, url: req.originalUrl, shortUrl: req._parsedOriginalUrl.pathname, type: type ? 'POST' : 'GET', err }, data));
+
+	console.log(`WebERR » Cannot GET: ${req.originalUrl} [${code}] [${id}]`);
+};
+
 app.use((req, res) => {
-	res.status(404).send('<h1>ERROR 404</h1>Podana strona nie istnieje.<br><br><a href="/">Strona główna</a>');
-	console.log(`Cannot GET: ${req.path} [404]`);
+	renderError(res, req, 404, false);
 });
 
 app.use((err, req, res, next) => {
-	res.status(500).send('<h1>ERROR 500</h1>Coś poszło nie tak.');
+	renderError(res, req, 500, false, err);
 	console.log(`Cannot GET: ${req.path} [500]\n${err}`);
 
 	return next;
