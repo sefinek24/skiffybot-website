@@ -1,25 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ade4a346-62f4-4f39-8950-2558a4b5195f" name="Changes" comment="v1.7.0-alpha.0">
-      <change afterPath="$PROJECT_DIR$/versions.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/add.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/bootstrap/bootstrap.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/bootstrap/bootstrap.min.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/footer.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/main.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/menu.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/addbot_bg.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/bot_avatar-min.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/index_bg-min.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/loading.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/menu_icon-min.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/profile.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/server_icon-min.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/server.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/version.txt" beforeDir="false" />
+    <list default="true" id="5e6feb6d-cca9-44f7-bfad-4be8e6fdc9ae" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/dictionaries/Neko.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/discord.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/discord.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/jsLinters/eslint.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/skiffybot-website-old.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -29,7 +19,7 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectId" id="1zv3D1mK2Ohegt5fQzDvtMUY2nz" />
+  <component name="ProjectId" id="2221G4quTwYHUKJ9zS9dw6knTWR" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -37,35 +27,19 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="javascript.nodejs.core.library.configured.version" value="17.2.0" />
+    <property name="javascript.nodejs.core.library.typings.version" value="16.11.12" />
     <property name="js.linters.configure.manually.selectedeslint" value="true" />
-    <property name="last_opened_file_path" value="$USER_HOME$/Documents/polish_intellij_dictionary-master/pl_PL.dic" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.standard" value="true" />
-    <property name="node.js.selected.package.eslint" value="C:\Users\mateu\Desktop\skiffybot-website-old\node_modules\eslint" />
+    <property name="node.js.selected.package.eslint" value="E:\Discord\www\skiffybot-website\node_modules\eslint" />
     <property name="node.js.selected.package.standard" value="" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="settings.javascript.linters.eslint" />
   </component>
-  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="1" Folder0="C:\Users\mateu\Documents\polish_intellij_dictionary-master" CustomDictionaries="1" CustomDictionary0="C:\Users\mateu\Documents\polish_intellij_dictionary-master\pl_PL.dic" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
-  </component>
-  <component name="Vcs.Log.Tabs.Properties">
-    <option name="TAB_STATES">
-      <map>
-        <entry key="MAIN">
-          <value>
-            <State />
-          </value>
-        </entry>
-      </map>
-    </option>
-    <option name="oldMeFiltersMigrated" value="true" />
-  </component>
-  <component name="VcsManagerConfiguration">
-    <MESSAGE value="1. Zaktualizowano nick twórcy.&#10;2. Dodano informacje o wersji testowej (Noel).&#10;3. Lekkie zmiany w stylach itd." />
-    <MESSAGE value="v1.7.0-alpha.0" />
-    <option name="LAST_COMMIT_MESSAGE" value="v1.7.0-alpha.0" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
