@@ -1,6 +1,6 @@
 {
   "name": "skiffybot-website",
-  "version": "1.8.2",
+  "version": "1.9.0",
   "description": "Oficjalna strona www.skiffybot.xyz",
   "main": "index.js",
   "scripts": {

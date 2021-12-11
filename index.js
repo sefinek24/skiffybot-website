@@ -33,6 +33,10 @@ app.get('/add', (req, res) => {
 	render('add', req, res);
 });
 
+app.get('/labybot', (req, res) => {
+	render('labybot', req, res);
+});
+
 app.get('/version', (req, res) => {
 	res.send(version);
 	console.log('GET /ver');
