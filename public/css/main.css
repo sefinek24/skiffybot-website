@@ -1,44 +1,43 @@
-body{background:fixed center;background-size:cover;font-family:"Open Sans",sans-serif}
+body {background:url(/images/bg-min.jpg) fixed center;background-size:cover;font-family:"Open Sans",sans-serif}
 
-a{text-decoration:none}
+a {text-decoration:none}
 
 .content {
     color:#fff;
     font-size:21px;
-    padding-top:40px;
+    padding-top:22px;
     text-align:center;
     text-shadow:0 0 7px #000
 }
 
-.content h1{padding-bottom:7px}
+.content h1 {padding-bottom:7px}
 
-.content_desc {
+.content {padding-bottom:20px}
+
+.desc {
     font-size:17px;
-    padding-bottom:30px;
     text-shadow:0 0 7px #000
 }
 
-.content_btn {
+.btns {padding-top:23px}
+
+.btn {
     background-color:#033677;
     border-radius:14px 14px;
     color:#fff;
     font-size:15px;
-    padding:7px 15px;
-    text-align:center;
+    padding:4px 15px;
     text-shadow:0 0 4px #034d98;
     transition:.3s
 }
 
-.content_btn:hover {
+.btn:hover {
     background-color:#02255b99;
-    color:#fff;
-    cursor:pointer
+    color:#fff
 }
 
-.content_btn:active {
-    background-color:#012056
-}
+.btn:active {background-color:#012056}
 
 @media screen and (max-width:1024px) {
-    .content_btn {display:inline-block;margin:6px}
+    .btn {display:inline-block;margin:6px}
 }

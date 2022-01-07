@@ -1,17 +1,17 @@
 {
   "name": "skiffybot-website",
-  "version": "1.9.0",
+  "version": "1.9.1",
   "description": "Oficjalna strona www.skiffybot.xyz",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "up": "ncu -u && npm install && npm update && npm audit fix"
   },
-  "author": "Sefinek#5905",
+  "author": "Sefinek#5916",
   "license": "ISC",
   "dependencies": {
     "ejs": "^3.1.6",
     "express": "^4.17.2",
-    "helmet": "^4.6.0"
+    "helmet": "^5.0.1"
   }
 }
