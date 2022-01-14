@@ -2,11 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5e6feb6d-cca9-44f7-bfad-4be8e6fdc9ae" name="Changes" comment="v1.9.0 &amp;&amp; Dodano informacje /labybot">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config.js" beforeDir="false" afterPath="$PROJECT_DIR$/config.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/templates/add.ejs" beforeDir="false" afterPath="$PROJECT_DIR$/templates/add.ejs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/templates/index.ejs" beforeDir="false" afterPath="$PROJECT_DIR$/templates/index.ejs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/templates/labybot.ejs" beforeDir="false" afterPath="$PROJECT_DIR$/templates/labybot.ejs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/partials/errors/header.ejs" beforeDir="false" afterPath="$PROJECT_DIR$/templates/partials/errors/header.ejs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/templates/server.ejs" beforeDir="false" afterPath="$PROJECT_DIR$/templates/server.ejs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/versions.json" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,7 +41,7 @@
     <property name="node.js.selected.package.standard" value="" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="settings.javascript.linters.eslint" />
-    <property name="ts.external.directory.path" value="C:\Program Files\JetBrains\WebStorm 2021.2.2\plugins\JavaScriptLanguage\jsLanguageServicesImpl\external" />
+    <property name="ts.external.directory.path" value="C:\Program Files\JetBrains\WebStorm 2021.3\plugins\JavaScriptLanguage\jsLanguageServicesImpl\external" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
