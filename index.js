@@ -53,4 +53,4 @@ app.use((err, req, res, next) => {
 });
 
 
-app.listen(port, null, null, () => console.log(`Strona https://skiffybot.xyz została uruchomiona na http://127.0.0.1:${port}.`));
+app.listen(port, () => console.log(`Strona https://skiffybot.xyz została uruchomiona na http://127.0.0.1:${port}.`));
