@@ -7,5 +7,10 @@ module.exports = {
 		out_file        : '/home/ubuntu/logs/www/main/out.log',
 	}],
 
-	deploy: { production: { user: 'node' } },
+	max_restarts: 10,
+	restart_delay: 6000,
+	shutdown_with_message: true,
+	wait_ready: true,
+
+	env_production: { NODE_ENV: 'production' },
 };
