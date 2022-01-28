@@ -10,6 +10,6 @@ module.exports = {
 		restart_delay         : 6000,
 		shutdown_with_message : true,
 		wait_ready            : true,
-		listen_timeout        : 35000,
+		listen_timeout        : 10000,
 	}],
 };
