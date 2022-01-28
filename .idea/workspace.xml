@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="5e6feb6d-cca9-44f7-bfad-4be8e6fdc9ae" name="Changes" comment="DEV_VERSION">
-      <change beforePath="$PROJECT_DIR$/ecosystem.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/ecosystem.config.js" afterDir="false" />
-    </list>
+    <list default="true" id="5e6feb6d-cca9-44f7-bfad-4be8e6fdc9ae" name="Changes" comment="Changed listen_timeout to 10s" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -62,7 +60,7 @@
       <option name="presentableId" value="Default" />
       <updated>1643366500380</updated>
       <workItem from="1643366502809" duration="7773000" />
-      <workItem from="1643375058940" duration="200000" />
+      <workItem from="1643375058940" duration="247000" />
     </task>
     <task id="LOCAL-00001" summary="v1.10.0">
       <created>1643374311849</created>
@@ -78,7 +76,14 @@
       <option name="project" value="LOCAL" />
       <updated>1643375180583</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Changed listen_timeout to 10s">
+      <created>1643375274273</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1643375274273</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -100,7 +105,8 @@
     <MESSAGE value="v1.9.0 &amp;&amp; Dodano informacje /labybot" />
     <MESSAGE value="v1.10.0" />
     <MESSAGE value="DEV_VERSION" />
-    <option name="LAST_COMMIT_MESSAGE" value="DEV_VERSION" />
+    <MESSAGE value="Changed listen_timeout to 10s" />
+    <option name="LAST_COMMIT_MESSAGE" value="Changed listen_timeout to 10s" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
