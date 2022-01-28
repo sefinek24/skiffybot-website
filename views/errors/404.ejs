@@ -1,7 +1,9 @@
-<%- include('../partials/errors/header.ejs', { title: 'File not found | Skiffy' }) %>
+<%- include('../partials/errors/header.ejs', { title: 'Nie znaleziono pliku | Skiffy na Discorda' }) %>
 
     <h1>Error 404: File not found</h1>
     <p>Przepraszamy, ale żądany adres URL nie został znaleziony na serwerze.</p>
-    <code><b>Cannot GET</b> <%= url %></code><br>
+    <div>
+        <code><b>Cannot GET</b> <%= url %></code>
+    </div>
 
     <%- include('../partials/errors/footer.ejs') %>

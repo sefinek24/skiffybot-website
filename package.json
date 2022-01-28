@@ -1,6 +1,6 @@
 {
   "name": "skiffybot-website",
-  "version": "1.9.2",
+  "version": "1.10.0",
   "description": "Oficjalna strona www.skiffybot.xyz",
   "main": "index.js",
   "scripts": {
@@ -10,6 +10,7 @@
   "author": "Sefinek",
   "license": "ISC",
   "dependencies": {
+    "dotenv": "^14.3.2",
     "ejs": "^3.1.6",
     "express": "^4.17.2",
     "helmet": "^5.0.2"

@@ -1,1 +1,0 @@
-module.exports = { port: 4180, lastUpdate: '14.01.2022' };
