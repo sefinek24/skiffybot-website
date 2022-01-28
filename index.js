@@ -47,4 +47,7 @@ app.use((err, req, res, next) => {
 });
 
 
-app.listen(process.env.PORT, () => console.log(`Strona https://skiffybot.xyz została uruchomiona na http://127.0.0.1:${process.env.PORT}.`));
+app.listen(process.env.PORT, () => {
+	console.log(`Strona https://skiffybot.xyz została uruchomiona na http://127.0.0.1:${process.env.PORT}.`);
+	if (process.env.DEV_VERSION === 'no') process.send('ready');
+});

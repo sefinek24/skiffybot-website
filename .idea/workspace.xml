@@ -1,26 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="5e6feb6d-cca9-44f7-bfad-4be8e6fdc9ae" name="Changes" comment="v1.9.0 &amp;&amp; Dodano informacje /labybot">
-      <change afterPath="$PROJECT_DIR$/.env" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/views/add.ejs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/views/index.ejs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/views/labybot.ejs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/views/server.ejs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
+    <list default="true" id="5e6feb6d-cca9-44f7-bfad-4be8e6fdc9ae" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.env" beforeDir="false" afterPath="$PROJECT_DIR$/.env" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config.js" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/add.ejs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/errors/404.ejs" beforeDir="false" afterPath="$PROJECT_DIR$/views/errors/404.ejs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/errors/500.ejs" beforeDir="false" afterPath="$PROJECT_DIR$/views/errors/500.ejs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/index.ejs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/labybot.ejs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/partials/errors/footer.ejs" beforeDir="false" afterPath="$PROJECT_DIR$/views/partials/errors/footer.ejs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/partials/errors/header.ejs" beforeDir="false" afterPath="$PROJECT_DIR$/views/partials/errors/header.ejs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/server.ejs" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -79,8 +63,17 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1643366500380</updated>
-      <workItem from="1643366502809" duration="6968000" />
+      <workItem from="1643366502809" duration="7773000" />
+      <workItem from="1643375058940" duration="110000" />
     </task>
+    <task id="LOCAL-00001" summary="v1.10.0">
+      <created>1643374311849</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1643374311849</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -100,7 +93,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Aktualizacja stron błędów HTTP 404 i 500" />
     <MESSAGE value="v1.9.0 &amp;&amp; Dodano informacje /labybot" />
-    <option name="LAST_COMMIT_MESSAGE" value="v1.9.0 &amp;&amp; Dodano informacje /labybot" />
+    <MESSAGE value="v1.10.0" />
+    <option name="LAST_COMMIT_MESSAGE" value="v1.10.0" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
