@@ -10,7 +10,7 @@
   "author": "Sefinek",
   "license": "ISC",
   "dependencies": {
-    "dotenv": "^15.0.0",
+    "dotenv": "^16.0.0",
     "ejs": "^3.1.6",
     "express": "^4.17.2",
     "helmet": "^5.0.2"
