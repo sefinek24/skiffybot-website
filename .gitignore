@@ -1,3 +1,5 @@
 .idea
+.env
+npm update.cmd
 node_modules
 package-lock.json

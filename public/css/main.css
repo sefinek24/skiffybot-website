@@ -1,18 +1,17 @@
-body {background:url(/images/bg-min.jpg) fixed center;background-size:cover;font-family:"Open Sans",sans-serif}
+body {background:url('/images/bg-min.jpg') fixed center;background-size:cover;font-family:"Open Sans",sans-serif}
 
-a {text-decoration:none}
+a {text-decoration:none;transition:.2s}
 
 .content {
     color:#fff;
     font-size:21px;
     padding-top:22px;
+    padding-bottom:20px;
     text-align:center;
     text-shadow:0 0 7px #000
 }
 
 .content h1 {padding-bottom:7px}
-
-.content {padding-bottom:20px}
 
 .desc {
     font-size:17px;
@@ -28,7 +27,7 @@ a {text-decoration:none}
     font-size:15px;
     padding:4px 15px;
     text-shadow:0 0 4px #034d98;
-    transition:.3s
+    transition:.2s
 }
 
 .btn:hover {

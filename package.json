@@ -1,7 +1,7 @@
 {
   "name": "skiffybot-website",
-  "version": "1.10.0",
-  "description": "Oficjalna strona www.skiffybot.xyz",
+  "version": "1.11.0",
+  "description": "Oficjalna witryna https://skiffybot.xyz",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
