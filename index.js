@@ -1,7 +1,7 @@
 const express = require('express');
 const { hidePoweredBy } = require('helmet');
-const { version } = require('./package.json');
 const { notFound, catchErrors } = require('./middlewares/errors.js');
+const { version } = require('./package.json');
 require('dotenv').config();
 
 const app = express();
