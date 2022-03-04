@@ -1,12 +1,12 @@
 const express = require('express');
-const { hidePoweredBy } = require('helmet');
+const helmet = require('helmet');
 const { notFound, catchErrors } = require('./middlewares/errors.js');
-const { version } = require('./package.json');
+const { version, lastUpdate } = require('./package.json');
 require('dotenv').config();
 
 const app = express();
 
-app.use(hidePoweredBy());
+app.use(helmet());
 app.use(express.static('public'));
 app.use(express.json());
 
@@ -21,7 +21,7 @@ app.get('*', (req, res, next) => {
 });
 
 /* URLs */
-app.get('/', (req, res) => res.render('index', { version }));
+app.get('/', (req, res) => res.render('index', { version, lastUpdate }));
 app.get('/labybot', (req, res) => res.render('labybot'));
 app.get('/server', (req, res) => res.render('server'));
 app.get('/add', (req, res) => res.render('add'));
