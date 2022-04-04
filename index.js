@@ -1,12 +1,12 @@
 const express = require('express');
-const helmet = require('helmet');
+const { hidePoweredBy } = require('helmet');
 const { notFound, catchErrors } = require('./middlewares/errors.js');
 const { version, lastUpdate } = require('./package.json');
 require('dotenv').config();
 
 const app = express();
 
-app.use(helmet());
+app.use(hidePoweredBy());
 app.use(express.static('public'));
 app.use(express.json());
 
@@ -14,24 +14,29 @@ app.set('trust proxy', '1.1.1.1');
 app.set('view engine', 'ejs');
 
 
-/* Next */
+// Next
 app.get('*', (req, res, next) => {
 	console.log(`GET ${req.originalUrl}`);
 	next();
 });
 
-/* URLs */
+app.post('*', (req, res, next) => {
+	console.log(`POST ${req.originalUrl}`);
+	next();
+});
+
+// Endpoints
 app.get('/', (req, res) => res.render('index', { version, lastUpdate }));
 app.get('/labybot', (req, res) => res.render('labybot'));
 app.get('/server', (req, res) => res.render('server'));
 app.get('/add', (req, res) => res.render('add'));
 app.get('/version', (req, res) => res.json({ version }));
 
-/* Short links */
-app.get('/serverUrl', (req, res) => res.redirect('https://discord.gg/uV6HsqxBBC'));
-app.get('/serverOld', (req, res) => res.redirect('https://discord.gg/YZmjrTgpDP'));
+// Links
+app.get('/support', (req, res) => res.redirect('https://discord.gg/YZmjrTgpDP'));
+app.get('/supportOld', (req, res) => res.redirect('https://discord.gg/uV6HsqxBBC'));
 
-/* Errors */
+// Errors
 app.use(notFound);
 app.use(catchErrors);
 
