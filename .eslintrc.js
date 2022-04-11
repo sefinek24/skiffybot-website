@@ -6,7 +6,7 @@ module.exports = {
 		'browser': true,
 	},
 	'parserOptions': {
-		'ecmaVersion': 2021,
+		'ecmaVersion': 2022,
 	},
 	'rules': {
 		'arrow-spacing': ['warn', { 'before': true, 'after': true }],
@@ -34,11 +34,7 @@ module.exports = {
 		'quotes': ['warn', 'single'],
 		'semi': ['warn', 'always'],
 		'space-before-blocks': 'error',
-		'space-before-function-paren': ['error', {
-			'anonymous': 'never',
-			'named': 'never',
-			'asyncArrow': 'always',
-		}],
+		'space-before-function-paren': ['error', { 'anonymous': 'never', 'named': 'never', 'asyncArrow': 'always' }],
 		'space-in-parens': 'error',
 		'space-infix-ops': 'error',
 		'space-unary-ops': 'error',
