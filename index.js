@@ -1,5 +1,6 @@
 const express = require('express');
 const { hidePoweredBy } = require('helmet');
+const morgan = require('morgan');
 const { notFound, catchErrors } = require('./middlewares/errors.js');
 const { version, lastUpdate } = require('./package.json');
 require('dotenv').config();
@@ -10,20 +11,10 @@ app.use(hidePoweredBy());
 app.use(express.static('public'));
 app.use(express.json());
 
-app.set('trust proxy', '1.1.1.1');
 app.set('view engine', 'ejs');
 
-
-// Next
-app.get('*', (req, res, next) => {
-	console.log(`GET ${req.originalUrl}`);
-	next();
-});
-
-app.post('*', (req, res, next) => {
-	console.log(`POST ${req.originalUrl}`);
-	next();
-});
+// Logger
+app.use(morgan(':method :url HTTP/:http-version [:status] :response-time ms - :user-agent'));
 
 // Endpoints
 app.get('/', (req, res) => res.render('index', { version, lastUpdate }));

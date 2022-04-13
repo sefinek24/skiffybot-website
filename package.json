@@ -1,7 +1,7 @@
 {
   "name": "skiffybot-website",
-  "version": "1.12.4",
-  "lastUpdate": "11.04.2022",
+  "version": "1.12.5",
+  "lastUpdate": "13.04.2022",
   "description": "Oficjalna witryna https://skiffybot.xyz",
   "main": "index.js",
   "scripts": {
@@ -14,6 +14,7 @@
     "dotenv": "^16.0.0",
     "ejs": "^3.1.6",
     "express": "^4.17.3",
-    "helmet": "^5.0.2"
+    "helmet": "^5.0.2",
+    "morgan": "^1.10.0"
   }
 }

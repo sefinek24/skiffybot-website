@@ -1,4 +1,4 @@
-<!DOCTYPE html> <!--suppress ALL Copyright 2022 © by Sefinek. All Rights Reserved. -->
+<!DOCTYPE html> <!--suppress ALL-->
 <html lang="pl">
 <head>
     <meta charset="utf-8">
@@ -31,9 +31,33 @@
         </div>
 
         <div class="btns">
-            <a href="/supportOld" target="_blank" class="btn">☎️ Serwer informacyjny</a>
+            <a href="/support" target="_blank" class="btn">☎️ Serwer pomocy</a>
             <a href="https://trello.com/b/v4r9fmHL" target="_blank" class="btn">🔖 Tablica Trello</a>
             <a href="add" class="btn">🤖 Dodaj bota</a>
+        </div>
+    </div>
+
+    <div class="content">
+        <h1>Wersja testowa — dostępna (wstrzymane)!</h1>
+
+        <div style="color:#0DFF65;font-weight:700;margin-bottom:15px;text-shadow:0 0 14px #0DFF65">Bot jest w trybie online i można już z niego korzystać</div>
+
+        <div class="desc">
+            <div>Za pomocą tej instancji będziemy mogli eliminować błędy w oficjalnym bocie (Skiffy) znacznie szybciej dzięki naszej społeczności.</div>
+            <div>Chcemy mieć pewność, że po premierze wszystko będzie działać tak, jak powinno.</div>
+            <div>Jeśli zauważysz jakiś błąd, zgłoś go nam na naszym serwerze wsparcia. Wszystkie zgłaszane przez was błędy będą natychmiast naprawiane.</div>
+            <div>Czy bota testowego o nazwie Noel™ można normalnie używać na swoich serwerach? Jak najbardziej tak.</div>
+            <p>W chwili obecnej Noel™ ma dosyć mało komend. Z każdym dniem będziemy starać się wprowadzać coś nowego.</p>
+
+            <div><b>Polecenie pomocy:</b> n!pomoc</div>
+            <div><b>Przedrostek komend jest możliwy do zmiany w <a href="https://noel.skiffybot.xyz/dashboard/guilds" target="_blank">panelu</a>.</b></div>
+            <div><b>Lista dostępnych komend jest <a href="https://noel.skiffybot.xyz/commands" target="_blank">tutaj</a>.</b></div>
+        </div>
+
+        <div class="btns">
+            <a href="https://noel.skiffybot.xyz" class="btn" target="_blank">🌍 Strona Noel™</a>
+            <a href="https://top.gg/bot/904409457595916316" class="btn" target="_blank">💻 Zobacz Top.gg</a>
+            <a href="https://discord.com/api/oauth2/authorize?client_id=904409457595916316&permissions=8&scope=bot" class="btn" target="_blank">🤖 Dodaj testowego bota</a>
         </div>
     </div>
 
@@ -52,6 +76,11 @@
         <div class="desc">
             <div>Jeżeli chcesz dołączyć na nasz serwer informacyjny, kliknij <a href="/supportOld" target="_blank">tutaj</a>.</div>
             <div>Chcesz z nami przyjemnie pogadać? Potrzebujesz pomocy z Noel lub Laby? Zapraszamy na <a href="/support" target="_blank">ten serwer</a>!</div>
+
+            <div class="btns">
+                <a href="/support" target="_blank" class="btn">☎️ Serwer wsparcia</a>
+                <a href="/supportOld" target="_blank" class="btn">📢️ Serwer ogłoszeniowy</a>
+            </div>
         </div>
     </div>
 
@@ -78,38 +107,11 @@
         </div>
     </div>
 
-
-    <div class="content">
-        <h1>Wersja testowa — dostępna!</h1>
-
-        <div style="color:#0012FF;font-weight:700;margin-bottom:15px;text-shadow:0 0 14px #000FD6">Bot jest w trybie online i można już z niego korzystać</div>
-
-        <div class="desc">
-            <div>Za pomocą tej instancji będziemy mogli eliminować błędy w oficjalnym bocie (Skiffy) znacznie szybciej dzięki naszej społeczności.</div>
-            <div>Chcemy mieć pewność, że po premierze wszystko będzie działać tak, jak powinno.</div>
-            <div>Jeśli zauważysz jakiś błąd, zgłoś go nam na naszym serwerze wsparcia. Wszystkie zgłaszane przez was błędy będą natychmiast naprawiane.</div>
-            <div>Czy bota testowego o nazwie Noel™ można normalnie używać na swoich serwerach? Jak najbardziej tak.</div>
-            <p>W chwili obecnej Noel™ ma dosyć mało komend. Z każdym dniem będziemy starać się wprowadzać coś nowego.</p>
-
-            <div><b>Polecenie pomocy:</b> n!pomoc</div>
-            <div><b>Przedrostek komend jest możliwy do zmiany w <a href="https://noel.skiffybot.xyz/dashboard/guilds" target="_blank">panelu</a>.</b></div>
-            <div><b>Lista dostępnych komend jest <a href="https://noel.skiffybot.xyz/commands" target="_blank">tutaj</a>.</b></div>
-        </div>
-
-        <div class="btns">
-            <a href="https://noel.skiffybot.xyz" class="btn" target="_blank">🌍 Strona Noel™</a>
-            <a href="https://top.gg/bot/904409457595916316" class="btn" target="_blank">💻 Zobacz Top.gg</a>
-            <a href="https://discord.com/api/oauth2/authorize?client_id=904409457595916316&permissions=8&scope=bot" class="btn" target="_blank">🤖 Dodaj testowego bota</a>
-        </div>
-    </div>
-
-
     <div id="footer">
         <div>Wersja strony: v<%= version %></div>
-        <div>Ostatnia aktualizacja: <%= lastUpdate %></div>
-        <div style="padding-bottom:10px">Miłego dnia życzy Sefinek ツ#5712.</div>
+        <p>Ostatnia aktualizacja: <%= lastUpdate %></p>
 
-        <div style="padding-bottom:8px">Copyright 2022 &copy; by Sefinek. All Rights Reserved.</div>
+        <p>Copyright 2022 &copy; by Sefinek. All Rights Reserved.</p>
     </div>
 
     <meta property="og:image" content="https://skiffybot.xyz/images/bot_avatar-min.png">
