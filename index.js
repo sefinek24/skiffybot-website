@@ -1,10 +1,4 @@
 const express = require('express');
-const dd_options = {
-	'response_code':true,
-	'tags': ['app:my_app'],
-};
-
-const connect_datadog = require('connect-datadog')(dd_options);
 const { hidePoweredBy } = require('helmet');
 const morgan = require('morgan');
 const { notFound, catchErrors } = require('./middlewares/errors.js');
@@ -18,7 +12,6 @@ app.use(express.static('public'));
 app.use(express.json());
 
 app.set('view engine', 'ejs');
-app.use(connect_datadog);
 
 // Logger
 app.use(morgan(':method :url HTTP/:http-version [:status] :response-time ms - :user-agent'));
