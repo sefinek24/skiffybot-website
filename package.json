@@ -11,6 +11,7 @@
   "author": "Sefinek",
   "license": "ISC",
   "dependencies": {
+    "connect-datadog": "^0.0.9",
     "dotenv": "^16.0.0",
     "ejs": "^3.1.6",
     "express": "^4.17.3",
