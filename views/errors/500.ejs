@@ -1,9 +1,9 @@
-<%- include('../partials/errors/header.ejs', { title: 'Wewnętrzny błąd serwera | Skiffy na Discorda' }) %>
+<%- include('./partials/header.ejs', { title: 'Wewnętrzny błąd serwera | Skiffy na Discorda' }) %>
 
-    <h1>Error 500: Internal Server Error</h1>
-    <p>Skontaktuj się z administratorem bota, aby uzyskać więcej informacji.</p>
-    <div>
-        <code><b>Cannot GET</b> <%= url %></code>
-    </div>
+<h1>Error 500: Internal Server Error</h1>
+<p>Skontaktuj się z administratorem bota, aby uzyskać więcej informacji.</p>
+<div>
+    <code><b>Cannot GET</b> <%= url %></code>
+</div>
 
-    <%- include('../partials/errors/footer.ejs') %>
+<%- include('./partials/footer.ejs') %>

@@ -21,6 +21,7 @@ app.get('/', (req, res) => res.render('index', { version, lastUpdate }));
 app.get('/labybot', (req, res) => res.render('labybot'));
 app.get('/server', (req, res) => res.render('server'));
 app.get('/add', (req, res) => res.render('add'));
+app.get('/datadog', (req, res) => res.render('datadog'));
 app.get('/version', (req, res) => res.json({ version }));
 
 // Links
