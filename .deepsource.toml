@@ -3,7 +3,7 @@ version = 1
 [[analyzers]]
 name = "javascript"
 enabled = true
-dependency_file_paths = ["client/package.json"]
+dependency_file_paths = ["package.json"]
 
 [analyzers.meta]
 ecma_version = "2020"
