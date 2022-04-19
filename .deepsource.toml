@@ -7,4 +7,4 @@ dependency_file_paths = ["package.json"]
 
 [analyzers.meta]
 ecma_version = "2020"
-environment = ["nodejs", "mongo"]
+environment = ["nodejs"]
