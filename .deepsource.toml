@@ -1,0 +1,10 @@
+version = 1
+
+[[analyzers]]
+name = "javascript"
+enabled = true
+dependency_file_paths = ["client/package.json"]
+
+[analyzers.meta]
+ecma_version = "2020"
+environment = ["nodejs", "mongo"]
