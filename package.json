@@ -1,6 +1,6 @@
 {
   "name": "skiffybot-website",
-  "version": "1.13.3",
+  "version": "1.13.2",
   "lastUpdate": "17.04.2022",
   "description": "Oficjalna witryna https://skiffybot.xyz",
   "main": "index.js",
