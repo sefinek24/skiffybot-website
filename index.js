@@ -8,13 +8,13 @@ require('dotenv').config();
 const app = express();
 
 app.use(hidePoweredBy());
+app.enable('trust proxy');
 app.use(express.static('public'));
-app.use(express.json());
 
 app.set('view engine', 'ejs');
 
 // Logger
-app.use(morgan(':method :url HTTP/:http-version [:status] :response-time ms - :user-agent'));
+app.use(morgan(':method :url [:status] :response-time ms - :user-agent'));
 
 // Endpoints
 app.get('/', (req, res) => res.render('index', { version, lastUpdate }));
