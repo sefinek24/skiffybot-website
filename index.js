@@ -23,7 +23,7 @@ app.get('/server', (req, res) => res.render('server'));
 app.get('/add', (req, res) => res.render('add'));
 app.get('/datadog', (req, res) => res.render('datadog'));
 app.get('/version', (req, res) => res.json({ version }));
-app.get('/kubasx10x', (req, res) => {
+app.get('/kubasx10x014', (req, res) => {
 	console.log(req.ip);
 	res.send('OK');
 });
