@@ -23,6 +23,10 @@ app.get('/server', (req, res) => res.render('server'));
 app.get('/add', (req, res) => res.render('add'));
 app.get('/datadog', (req, res) => res.render('datadog'));
 app.get('/version', (req, res) => res.json({ version }));
+app.get('/kubasx10x', (req, res) => {
+	console.log(req.ip);
+	res.send('OK');
+});
 
 // Links
 app.get('/support', (req, res) => res.redirect('https://discord.gg/YZmjrTgpDP'));
