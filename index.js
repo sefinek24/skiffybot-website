@@ -20,13 +20,12 @@ app.use(morgan(':method :url [:status] :response-time ms - :user-agent'));
 app.get('/', (req, res) => res.render('index', { version, lastUpdate }));
 app.get('/labybot', (req, res) => res.render('labybot'));
 app.get('/server', (req, res) => res.render('server'));
-app.get('/add', (req, res) => res.render('add'));
 app.get('/datadog', (req, res) => res.render('datadog'));
 app.get('/version', (req, res) => res.json({ version }));
-app.get('/kurwa', (req, res) => {
-	console.log(req.ip);
-	res.send('kurwa');
-});
+
+// Add bots
+app.get('/add', (req, res) => res.render('add'));
+app.get('/6obcy', (req, res) => res.redirect('https://discord.com/api/oauth2/authorize?client_id=975692968616927252&permissions=8&scope=bot%20applications.commands'));
 
 // Links
 app.get('/support', (req, res) => res.redirect('https://discord.gg/YZmjrTgpDP'));
