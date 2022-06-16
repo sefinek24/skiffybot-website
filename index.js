@@ -1,6 +1,7 @@
 const express = require('express');
 const { hidePoweredBy } = require('helmet');
 const morgan = require('morgan');
+const favicon = require('serve-favicon');
 const { notFound, catchErrors } = require('./middlewares/errors.js');
 const { version, lastUpdate } = require('./package.json');
 require('dotenv').config();
@@ -8,9 +9,8 @@ require('dotenv').config();
 const app = express();
 
 app.use(hidePoweredBy());
-app.enable('trust proxy');
+app.use(favicon('public/images/menu_icon-min.png'));
 app.use(express.static('public'));
-
 app.set('view engine', 'ejs');
 
 // Logger
