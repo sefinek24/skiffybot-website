@@ -9,7 +9,6 @@ module.exports = {
 
 		max_restarts          : 9,
 		restart_delay         : 2000,
-		shutdown_with_message : true,
 		wait_ready            : true,
 	}],
 };

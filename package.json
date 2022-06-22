@@ -1,7 +1,7 @@
 {
   "name": "skiffybot-website",
-  "version": "1.14.4",
-  "lastUpdate": "16.06.2022",
+  "version": "1.15.0",
+  "lastUpdate": "22.06.2022",
   "description": "Oficjalna witryna https://skiffybot.xyz",
   "main": "index.js",
   "scripts": {
@@ -9,7 +9,7 @@
     "up": "ncu -u && npm install && npm update && npm audit fix",
     "upg": "git pull & npm run up"
   },
-  "author": "Sefinek",
+  "author": "Sefinek <contact@sefinek.fun>",
   "license": "ISC",
   "dependencies": {
     "dotenv": "^16.0.1",
