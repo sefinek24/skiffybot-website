@@ -7,8 +7,10 @@
     <meta name="keywords" content="dodaj, bota, skiffy, na, swoj, serwer, discord, add, bot, noel, noel™️">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-5940133903366556" crossorigin="anonymous"></script>
-    <%- include('includes/tawk.html') %>
+    <% if (process.env.NODE_ENV === 'production') { %>
+        <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-5940133903366556" crossorigin="anonymous"></script>
+        <%- include('includes/tawk.html') %>
+    <% } %>
 
     <link rel="stylesheet" href="/css/bootstrap/bootstrap.min.css">
     <link rel="stylesheet" href="/css/main.css">

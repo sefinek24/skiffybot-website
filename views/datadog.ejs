@@ -6,7 +6,7 @@
     <meta name="description" content="Sprawdź użycie procesora, pamięci RAM naszego serwera i wiele więcej! Ta strona zawiera również informacje związane z czasem pracy serwera.">
     <meta name="keywords" content="statystyki, noel, cpu, ram, mongo, mongodb, ruch, sieciowy, uptime, czas, aktywnosci, praca, serwera">
 
-    <%- include('includes/tawk.html') %>
+    <% if (process.env.NODE_ENV === 'production') { %> <%- include('includes/tawk.html') %> <% } %>
 
     <style>html{overflow:auto}html,body,iframe{border:none;height:100%;margin:0;padding:0}iframe{border:none;display:block;overflow-x:hidden;overflow-y:auto;width:100%}</style>
 </head>

@@ -7,7 +7,10 @@
     <meta name="keywords" content="labybot, polaczenie, i skiffy, co, dalej, bot, offline, discord, anime, fun, moderacja, moderation, labybot.pl">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <%- include('includes/tawk.html') %>
+    <% if (process.env.NODE_ENV === 'production') { %>
+        <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-5940133903366556" crossorigin="anonymous"></script>
+        <%- include('includes/tawk.html') %>
+    <% } %>
 
     <link rel="stylesheet" href="/css/bootstrap/bootstrap.min.css">
     <link rel="stylesheet" href="/css/main.css">
@@ -96,8 +99,6 @@
         </div>
     </div>
 
-    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-5940133903366556"
-            crossorigin="anonymous"></script>
     <ins class="adsbygoogle"
          style="display:block"
          data-ad-format="autorelaxed"
