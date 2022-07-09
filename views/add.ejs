@@ -7,11 +7,6 @@
     <meta name="keywords" content="dodaj, bota, skiffy, na, swoj, serwer, discord, add, bot, noel, noel™️">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <% if (process.env.NODE_ENV === 'production') { %>
-        <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-5940133903366556" crossorigin="anonymous"></script>
-        <%- include('includes/tawk.html') %>
-    <% } %>
-
     <link rel="stylesheet" href="/css/bootstrap/bootstrap.min.css">
     <link rel="stylesheet" href="/css/main.css">
     <link rel="stylesheet" href="/css/menu.css">
@@ -64,7 +59,11 @@
         </div>
     </div>
 
-    <%- include('includes/ads.html') %>
+    <% if (process.env.NODE_ENV === 'production') { %>
+        <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-5940133903366556" crossorigin="anonymous"></script>
+        <%- include('includes/ads.html') %>
+        <%- include('includes/tawk.html') %>
+    <% } %>
 
     <meta property="og:image" content="https://skiffybot.xyz/images/bot_avatar-min.png">
     <meta name="theme-color" content="#2E0084">

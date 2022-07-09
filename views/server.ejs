@@ -7,10 +7,6 @@
     <meta name="keywords" content="serwer, wsparcia, support, server, skiffybot">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <% if (process.env.NODE_ENV === 'production') { %>
-        <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-5940133903366556" crossorigin="anonymous"></script>
-    <% } %>
-
     <link rel="stylesheet" href="/css/bootstrap/bootstrap.min.css">
     <link rel="stylesheet" href="/css/main.css">
     <link rel="stylesheet" href="/css/menu.css">
@@ -31,9 +27,13 @@
 
             <img src="images/loading.gif" style="height:92px;padding-top:24px" alt="Loading">
         </div>
-
-        <%- include('includes/ads.html') %>
     </div>
+
+    <% if (process.env.NODE_ENV === 'production') { %>
+        <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-5940133903366556" crossorigin="anonymous"></script>
+        <%- include('includes/ads.html') %>
+        <%- include('includes/tawk.html') %>
+    <% } %>
 
     <meta property="og:image" content="https://skiffybot.xyz/images/server_icon-min.png">
     <meta name="theme-color" content="#F745A5">
