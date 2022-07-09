@@ -19,6 +19,6 @@ case 500: { %>
 
 } %>
 
-<%- include('../../includes/tawk.html') %>
+<% if (process.env.NODE_ENV === 'production') { %><%- include('../../includes/tawk.html') %><% } %>
 </body>
 </html>
