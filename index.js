@@ -32,7 +32,6 @@ app.get('/support', (req, res) => res.redirect('https://discord.gg/YZmjrTgpDP'))
 app.get('/supportOld', (req, res) => res.redirect('https://discord.gg/uV6HsqxBBC'));
 
 app.get('/allegro', (req, res) => {
-	console.log(req.ip);
 	res.send('https://cdn.discordapp.com/attachments/995804559622541452/995806033127682108/polski_zjeb_kabuk.mp4');
 });
 
