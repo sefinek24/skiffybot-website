@@ -25,15 +25,11 @@ app.get('/version', (req, res) => res.json({ version }));
 
 // Add bots
 app.get('/add', (req, res) => res.render('add'));
-app.get('/6obcy', (req, res) => res.redirect('https://discord.com/api/oauth2/authorize?client_id=975692968616927252&permissions=8&scope=bot%20applications.commands'));
+app.get('/6obcy', (req, res) => res.send('Bot od 6obcy został wyłączony. Więcej informacji uzyskasz na naszym serwerze wsparcia.'));
 
 // Links
 app.get('/support', (req, res) => res.redirect('https://discord.gg/YZmjrTgpDP'));
 app.get('/supportOld', (req, res) => res.redirect('https://discord.gg/uV6HsqxBBC'));
-
-app.get('/allegro', (req, res) => {
-	res.send('https://cdn.discordapp.com/attachments/995804559622541452/995806033127682108/polski_zjeb_kabuk.mp4');
-});
 
 // Errors
 app.use(notFound);
