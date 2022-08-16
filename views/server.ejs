@@ -29,10 +29,7 @@
         </div>
     </div>
 
-    <% if (process.env.NODE_ENV === 'production') { %>
-        <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-5940133903366556" crossorigin="anonymous"></script>
-        <%- include('includes/ads.html') %>
-    <% } %>
+    <% if (process.env.NODE_ENV === 'production') { %><%- include('includes/ads.html') %><% } %>
 
     <meta property="og:image" content="https://skiffybot.xyz/images/server_icon-min.png">
     <meta name="theme-color" content="#F745A5">
