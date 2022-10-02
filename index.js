@@ -36,6 +36,6 @@ app.use(notFound);
 app.use(catchErrors);
 
 app.listen(process.env.PORT, () => {
-	console.log(`Strona https://skiffybot.xyz została uruchomiona na http://127.0.0.1:${process.env.PORT}.`);
+	console.log(`Strona https://skiffy.sefinek.fun została uruchomiona na http://127.0.0.1:${process.env.PORT}.`);
 	if (process.env.NODE_ENV === 'production') process.send('ready');
 });
